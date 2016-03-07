@@ -1,0 +1,24 @@
+{
+    "name": "async",
+    "version": "0.1",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://packagist.org/"
+        }
+    ],
+    "authors": [
+        {
+            "name": "FangLiang",
+            "email": "hustnaive@me.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "fangl\\": "src/"
+        }
+    }
+}
